@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -60,49 +60,6 @@
 </header>
       <div class="outer">
         <section id="main">
-  
-    <article id="post-Android序列化组件Parcelable传递复杂类型详解" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/08/04/Android序列化组件Parcelable传递复杂类型详解/" class="article-date">
-  <time datetime="2016-08-04T11:27:47.000Z" itemprop="datePublished">2016-08-04</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Android/">Android</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/08/04/Android序列化组件Parcelable传递复杂类型详解/">Android序列化组件Parcelable传递复杂类型详解.md</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Android中实现序列化有两个选择：一是实现Serializable接口（是JavaSE本身就支持的），一是实现Parcelable接口（是Android特有功能，效率比实现Serializable接口高效，可用于Intent数据传递，也可以用于进程间通信（IPC））。实现Serializable接口非常简单，声明一下就可以了，而实现Parcelable接口稍微复杂一些，但效率更高，推荐用这种方法提高性能。<br>关于Parcelable基础网上已经有很多介绍，在这里就不多做赘述，可以参看一下文章：<br><a href="http://www.cnblogs.com/renqingping/archive/2012/10/25/Parcelable.html" target="_blank" rel="external">基本用法</a><br><a href="http://greenrobot.me/devpost/android-parcelable-serializable/" target="_blank" rel="external">与Serializable效率对比，某些情况下可达10倍</a></p>
-<h2 id="复杂类型的传递"><a href="#复杂类型的传递" class="headerlink" title="复杂类型的传递"></a>复杂类型的传递</h2><h4 id="传递Bitmap"><a href="#传递Bitmap" class="headerlink" title="传递Bitmap"></a>传递Bitmap</h4>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/08/04/Android序列化组件Parcelable传递复杂类型详解/" data-id="cirg8nzh30001ddvfct0d7bys" class="article-share-link">Partager</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Android-SDK/">Android_SDK</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Parcelable/">Parcelable</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
   
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -139,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/08/01/hello-world/" data-id="cirdgw7bh0000k5vf9nyz35yi" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/08/01/hello-world/" data-id="cirdgw7bh0000k5vf9nyz35yi" class="article-share-link">Share</a>
       
       
     </footer>
@@ -156,9 +113,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Catégories</h3>
+    <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Android/">Android</a></li></ul>
+      <ul class="category-list"></ul>
     </div>
   </div>
 
@@ -166,9 +123,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Mot-clés</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Android-SDK/">Android_SDK</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Parcelable/">Parcelable</a></li></ul>
+      <ul class="tag-list"></ul>
     </div>
   </div>
 
@@ -176,9 +133,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Android-SDK/" style="font-size: 10px;">Android_SDK</a> <a href="/tags/Parcelable/" style="font-size: 10px;">Parcelable</a>
+      
     </div>
   </div>
 
@@ -195,13 +152,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2016/08/04/Android序列化组件Parcelable传递复杂类型详解/">Android序列化组件Parcelable传递复杂类型详解.md</a>
-          </li>
         
           <li>
             <a href="/2016/08/01/hello-world/">Hello World</a>
@@ -220,7 +173,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 白猫<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
